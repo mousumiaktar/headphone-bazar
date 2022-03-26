@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import SingleProduct from '../SingleProduct/SingleProduct';
 import './Cart.css';
-const Cart = (props) => {
+const Cart = ({cart, evenHandler}) => {
+    const [getOne, setgetOne] = useState([]);
+    const getProduct = (cart) => {
+        let getCart = cart[Math.floor(Math.random() * cart.length)];
+        setgetOne(getCart)
+    }
     return (
         <div className='cart-area'>
-            <img src={props.selectedProduct.image} alt=''/>
-            <h4>{props.selectedProduct.name}</h4>
+            <h3>Selected Products</h3>
+            <div>
+                {
+                    cart.map((singleElement) => (
+                        <SingleProduct key={singleElement.id} singleElement={singleElement}></SingleProduct>
+                    ))
+                }
+            </div>
+            <button onClick={() => getProduct(cart)}>Choose One for you</button>
+            <p>{getOne.name}</p>
+            <button onClick={evenHandler}>Choose Again</button>
         </div>
     );
 };

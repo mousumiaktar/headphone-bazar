@@ -13,8 +13,20 @@ const Headphones = () => {
     },[])
 
     const handleAddtoCart = (product) => {
-        const newCart = [...cart, product];
+        let newCart = [];
+        const exist = cart.find((item)=>item.id === product.id);
+        if(!exist && cart.length < 4) {
+             newCart = [...cart, product];
+        }
+        else{
+            alert('not allow more then four items');
+            return;
+        }
         setCart(newCart);
+    }
+    const evenHandler = () => {
+        let newCart = [];
+        setCart(newCart)
     }
     
     return (
@@ -29,7 +41,8 @@ const Headphones = () => {
             }
            </div>
            <div className='cart-container'>
-               <div className='cart-info'>
+               <Cart evenHandler={evenHandler} cart = {cart}></Cart>
+               {/* <div className='cart-info'>
                <h3>Selected Items:</h3>
                {
                 cart.map((selectedProduct) => (
@@ -38,7 +51,7 @@ const Headphones = () => {
                }
                <button>Choose one for headphone</button>
                <button>Choose Again</button>
-               </div>
+               </div> */}
            </div>
         </div>
     );
