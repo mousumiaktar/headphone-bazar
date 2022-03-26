@@ -3,54 +3,54 @@
       "id": "623e9ebcf731a8bcdabd4f1",
       "image": "https://i.ibb.co/3rC3JxN/img-1.jpg",
       "price": 23,
-      "name": "Ericka Simmons"
+      "name": "Sony MDR-ZX110AP Wired Headphones"
     },
     {
       "id": "623e9ebc8e6e474fc8b29b02",
       "image": "https://i.ibb.co/vJMQVwM/img-2.jpg",
       "price": 29,
-      "name": "Holmes Roberts"
+      "name": "Panasonic RP-HT030 Wired Headphones"
     },
     {
       "id": "623e9ebc273f39f578b850f3",
       "image": "https://i.ibb.co/mJf5Td8/img-3.jpg",
       "price": 31,
-      "name": "Case Scott"
+      "name": "JBL E45BT Wireless Headphones"
     },
     {
       "id": "623e9ebcec9d12378acc50b4",
       "image": "https://i.ibb.co/ZT87mF5/img-4.jpg",
       "price": 25,
-      "name": "Lizzie David"
+      "name": "Bose QuietComfort 35 II Wireless Headphones"
     },
     {
       "id": "623e9ebc3779c82abffdcae5",
       "image": "https://i.ibb.co/VYtfrr1/img-5.jpg",
       "price": 22,
-      "name": "Sallie Mclean"
+      "name": "Beats Pro Wired Headphones"
     },
     {
       "id": "623e9ebc55c22e07fb7cb11f6",
       "image": "https://i.ibb.co/tzSyPjR/img-8.jpg",
       "price": 36,
-      "name": "Tyler Holman"
+      "name": "JBL T450BT Wireless Headphones"
     },
     {
       "id": "623e9ebcb9138c7dce762147",
       "image": "https://i.ibb.co/GRNCBcC/img-9.jpg",
       "price": 39,
-      "name": "Hill Chandler"
+      "name": "Bose SoundTure Wired Headphones"
     },
     {
         "id": "623e9ebcb9138c7dce762148",
         "image": "https://i.ibb.co/BZm22Zp/img-10.jpg",
         "price": 39,
-        "name": "Hill Chandler"
+        "name": "Logitech G633 Wired Headphones"
       },
       {
         "id": "623e9ebcb9138c7dce762149",
         "image": "https://i.ibb.co/LgvDgbh/img-11.jpg",
         "price": 39,
-        "name": "Hill Chandler"
+        "name": "Sennheiser PXC480 Wired Headphones"
       }
   ]

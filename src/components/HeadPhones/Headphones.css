@@ -11,3 +11,21 @@
 .cart-container{
     background-color: rgb(252, 232, 248);
 }
+.cart-info{
+    position: sticky;
+    top: 0;
+    padding:  30px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .headphone-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
