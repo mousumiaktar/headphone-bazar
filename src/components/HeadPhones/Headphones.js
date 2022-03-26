@@ -42,16 +42,6 @@ const Headphones = () => {
            </div>
            <div className='cart-container'>
                <Cart evenHandler={evenHandler} cart = {cart}></Cart>
-               {/* <div className='cart-info'>
-               <h3>Selected Items:</h3>
-               {
-                cart.map((selectedProduct) => (
-                    <Cart key ={selectedProduct.id} selectedProduct={selectedProduct}></Cart>
-                ))
-               }
-               <button>Choose one for headphone</button>
-               <button>Choose Again</button>
-               </div> */}
            </div>
         </div>
     );

@@ -1,0 +1,9 @@
+.difference-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container{
+    margin: 0 50px;
+}
+

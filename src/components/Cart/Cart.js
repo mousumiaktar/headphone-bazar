@@ -10,7 +10,7 @@ const Cart = ({cart, evenHandler}) => {
     return (
         <div className='cart-area'>
             <h3>Selected Products</h3>
-            <div>
+            <div className='cart-item'>
                 {
                     cart.map((singleElement) => (
                         <SingleProduct key={singleElement.id} singleElement={singleElement}></SingleProduct>
