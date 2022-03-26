@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SingleHeadphone from '../SingleHeadphone/SingleHeadphone';
-
+import './Headphones.css';
 const Headphones = () => {
     const [products, setProducts] = useState([]); 
 
@@ -19,6 +19,9 @@ const Headphones = () => {
                 product={product}
                 ></SingleHeadphone>)
             }
+           </div>
+           <div className='cart-container'>
+               <h1>cart side</h1>
            </div>
         </div>
     );
